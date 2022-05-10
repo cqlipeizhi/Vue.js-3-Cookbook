@@ -1,0 +1,44 @@
+{
+  "name": "http-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@ant-design/icons-vue": "^6.1.0",
+    "ant-design-vue": "^3.2.0",
+    "axios": "^0.26.1",
+    "core-js": "^3.8.3",
+    "is-color": "^1.0.2",
+    "material-icons": "^1.10.8",
+    "miragejs": "^0.1.43",
+    "sweetalert2": "^11.4.8",
+    "vue": "^3.2.13",
+    "vue-class-component": "^8.0.0-0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-typescript": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "@vue/eslint-config-standard": "^6.1.0",
+    "@vue/eslint-config-typescript": "^9.1.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "lint-staged": "^11.1.2",
+    "stylus": "^0.55.0",
+    "stylus-loader": "^6.1.0",
+    "typescript": "~4.5.5"
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  }
+}
